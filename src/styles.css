@@ -1,0 +1,23 @@
+.tab-list {
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    border-color:orange;
+    border-width: .05rem
+  }
+  
+  .tab-list-item {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: -1px;
+    padding: 0.5rem 0.75rem;
+    /* border-radius: 5px; */
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+  }
+  
+  .tab-list-active {
+    background-color: white;
+    border: solid #ccc;
+    border-color: orange;
+    border-width: 1px 1px 0 1px;
+  }
